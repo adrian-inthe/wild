@@ -70,6 +70,20 @@ summary,
   object-position: 50% 35%;
 }
 
+.nav--short {
+  display: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav--long {
+    display: none;
+  }
+  .nav--short {
+    display: block;
+  }
+}
+
 .nav__title {
   font-size: large;
   letter-spacing: .1em;
