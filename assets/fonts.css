@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 250;
   src: local('Gravity-Ultralight'),
-  url(https://fonts.cdnfonts.com/s/17843/Gravity.woff) format('woff')
+  url(https://fonts.cdnfonts.com/s/17843/Gravity-UltraLight.woff) format('woff')
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Gravity-Light'),
-  url(https://fonts.cdnfonts.com/s/17843/Gravity.woff) format('woff')
+  url(https://fonts.cdnfonts.com/s/17843/Gravity-Light.woff) format('woff')
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Gravity-Regular'),
-  url(https://fonts.cdnfonts.com/s/17843/Gravity.woff) format('woff')
+  url(https://fonts.cdnfonts.com/s/17843/Gravity-Regular.woff) format('woff')
 }
 
 @font-face {
@@ -35,5 +35,5 @@
   font-style: normal;
   font-weight: 700;
   src: local('Gravity-Bold'),
-  url(https://fonts.cdnfonts.com/s/17843/Gravity.woff) format('woff')
+  url(https://fonts.cdnfonts.com/s/17843/Gravity-Bold.woff) format('woff')
 }
