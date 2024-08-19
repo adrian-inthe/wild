@@ -1,0 +1,115 @@
+:root {
+  --pico-font-family: 'Gravity';
+  --pico-font-weight: 350;
+}
+
+h1, h2 {
+  font-weight: 350;
+}
+
+h2 {
+  font-size: larger;
+}
+
+h2,
+summary,
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: medium;
+  font-weight: 250;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo__image {
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.logo__text {
+  letter-spacing: .25em;
+}
+
+.logo__text-strong {
+  letter-spacing: .3em;
+}
+
+.main-title {
+  font-size: xx-large;
+  margin-top: 50px;
+  letter-spacing: .2em;
+}
+
+.main-subtitle {
+  font-size: large;
+  letter-spacing: .2em;
+}
+
+.hero {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+  max-height: 40vh;
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+
+.nav__title {
+  font-size: large;
+  letter-spacing: .1em;
+}
+
+.nav__item {
+  font-size: medium;
+  font-weight: 350;
+  letter-spacing: .1em;
+}
+
+.watch-item__link {
+  display: flex;
+  align-items: center;
+}
+
+.watch-item__image {
+  max-width: 100px;
+  margin-right: 10px;
+  border-radius: 5px
+}
+
+.gear-item {
+  font-size: smaller;
+}
+
+.copyright {
+  font-size: medium;
+  font-weight: 250;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  color: var(--pico-h1-color);
+}
