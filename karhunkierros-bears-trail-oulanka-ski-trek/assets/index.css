@@ -1,45 +1,6 @@
-:root {
-  --pico-font-family: 'Gravity';
-  --pico-font-weight: 350;
-}
-
-h1, h2 {
-  font-weight: 350;
-}
-
-h2 {
-  font-size: larger;
-}
-
-h2,
-summary,
-.uppercase {
-  text-transform: uppercase;
-}
-
-.main-title {
-  font-size: xx-large;
-  margin-top: 50px;
-  letter-spacing: .2em;
-}
-
 .main-subtitle {
   font-size: large;
   letter-spacing: .2em;
-}
-
-.hero {
-  overflow: hidden;
-  width: 100%;
-  border-radius: 5px;
-}
-
-.hero__image {
-  width: 100%;
-  height: auto;
-  max-height: 40vh;
-  object-fit: cover;
-  object-position: 50% 35%;
 }
 
 .nav--short {
@@ -80,22 +41,4 @@ summary,
 
 .gear-item {
   font-size: smaller;
-}
-
-.copyright {
-  font-size: medium;
-  font-weight: 250;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.social {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.social-icons {
-  color: var(--pico-h1-color);
 }
