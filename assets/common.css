@@ -21,6 +21,12 @@ summary,
   text-align: center;
 }
 
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero {
   overflow: hidden;
   width: 100%;

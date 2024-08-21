@@ -1,9 +1,3 @@
-.header__top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .hero__image {
   object-position: 50% 65%;
 }

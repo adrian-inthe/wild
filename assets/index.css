@@ -1,0 +1,41 @@
+.hero {
+  border-radius: 0;
+}
+
+.hero__image {
+  max-height: 75vh;
+}
+
+.post {
+  margin: 5px;
+  padding: 0;
+  border: 1px solid var(--pico-card-sectioning-background-color);
+}
+
+.post .post__title {
+  transition: text-decoration-color .3s ease-in;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  -webkit-text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+}
+
+.post:hover .post__title {
+  text-decoration-color: var(--pico-h6-color);
+  -webkit-text-decoration-color: var(--pico-h6-color);
+  -moz-text-decoration-color: var(--pico-h6-color);
+}
+
+.post__content {
+  padding: 10px;
+}
+
+.post__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
