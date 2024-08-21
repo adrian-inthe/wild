@@ -33,21 +33,29 @@
 </head>
 
 <body>
-<header class="container">
-  <div class="logo uppercase">
-    <a class="logo__link" href="https://www.youtube.com/@adrian.inthewild">
-      <img alt="My profile photo" class="logo__image" src="/assets/images/logo.jpg" />
-      <small class="logo__text">Adrian <strong class="logo__text-strong">in The Wild</strong></small>
-    </a>
+<header>
+  <div class="container header__top">
+    <div class="logo uppercase">
+      <a class="logo__link" href="/">
+        <img alt="My profile photo" class="logo__image" src="/assets/images/logo.jpg" />
+        <small class="logo__text">Adrian <strong class="logo__text-strong">in The Wild</strong></small>
+      </a>
+    </div>
+    <div>
+      <a href="/"><i class="fa-solid fa-house social-icons" style="font-size: 16px; position: relative; top: -2px; right: -1px; display: inline-block;"></i></a>
+      <a href="https://www.youtube.com/@adrian.inthewild"><i class="fab fa-youtube social-icons"></i></a>
+      <a href="https://www.instagram.com/adrian.inthewild"><i class="fab fa-instagram social-icons"></i></a>
+    </div>
   </div>
-  <hgroup>
+  <br>
+  <div class="hero">
+    <img alt="Photography of a Karhunkierro's spectacular frozen waterfall with blue and turquoise hues and reddish cliffs" class="hero__image" src="./assets/images/hero.jpg">
+  </div>
+  <hgroup class="container">
     <h1 class="main-title uppercase">The Bear's Trail / Karhunkierros</h1>
     <p class="main-subtitle uppercase">A Solo ski trek to the Arctic Circle</p>
   </hgroup>
-  <div class="hero">
-    <img alt="Photography of a trail's spectacular icy waterfall with blue and turquoise hues and reddish cliffs" class="hero__image" src="./assets/images/hero.jpg">
-  </div>
-  <nav class="nav--long uppercase">
+  <nav class="container nav--long uppercase">
     <ul>
       <li class="nav__title">Trip report</li>
     </ul>
@@ -59,7 +67,7 @@
       <li><a class="nav__item" href="#gear-pack">Pack</a></li>
     </ul>
   </nav>
-  <div class="nav--short uppercase">
+  <div class="container nav--short uppercase">
     <details class="dropdown">
       <summary class="secondary" role="button">Trip report</summary>
       <ul>
@@ -78,7 +86,7 @@
     <h2>Preview</h2>
     <p>My first solo multi-day ski trek!</p>
     <p>
-      6 days to ski <span data-tooltip="51 mi">82 km</span> in the <span data-tooltip="Oulangan kansallispuisto">Oulanka national park</span>, in Finland, to try to reach the Arctic Circle and Lapland on Karhunkierros, <strong>the Bear's Trail</strong>.
+      6 days to ski <span data-tooltip="51 mi">82 km</span> in the <span data-tooltip="Oulangan kansallispuisto">Oulanka national park</span>, in Finland, to try to reach the Arctic Circle and Lapland on Karhunkierros, <em>the Bear's Trail</em>.
     </p>
     <p>No resupply points, only tent campsites in snow or simple wooden huts and lean-to shelters to spend the nights.
     </p>
@@ -96,19 +104,15 @@
 
   <article id="watch">
     <h2>Watch</h2>
-    <a class="watch-item__link" href="https://www.youtube.com/playlist?list=PLH2x_2Hwn8HDwHt8F046B0UdV0N4BEG-X"><img alt="Screenshot of my YouTube series' playlist page" class="watch-item__image" src="./assets/images/playlist.jpg" /><small>All episodes</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/iRQ3HBRbhro"><img alt="Episode 1's thumbnail" class="watch-item__image" src="./assets/images/episode1.jpg" /><small>Episode 1: (end of the) First day</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/OGvE-EgW5qA"><img alt="Episode 2's thumbnail" class="watch-item__image" src="./assets/images/episode2.jpg" /><small>Episode 2: Fun descents, magical forest and first rapids</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/q-FZt1Z7RNc"><img alt="Episode 3's thumbnail" class="watch-item__image" src="./assets/images/episode3.jpg" /><small>Episode 3: Meeting the Oulanka river and sleeping in a tent</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/Ijtehnt_thA"><img alt="Episode 4's thumbnail" class="watch-item__image" src="./assets/images/episode4.jpg" /><small>Episode 4: Icy rapids and deep powder</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/x7S73H_XFy4"><img alt="Episode 5's thumbnail" class="watch-item__image" src="./assets/images/episode5.jpg" /><small>Episode 5: Wildest area</small></a>
-    <hr>
-    <a class="watch-item__link" href="https://youtu.be/xuFpwUvegFA"><img alt="Episode 6's thumbnail" class="watch-item__image" src="./assets/images/episode6.jpg" /><small>Episode 6: Arctic Circle?</small></a>
+    <div class="watch__container">
+<!--      <div class="watch-item"><a class="watch-item__link" href="https://www.youtube.com/playlist?list=PLH2x_2Hwn8HDwHt8F046B0UdV0N4BEG-X"><img alt="Screenshot of my YouTube series' playlist page" class="watch-item__image" src="./assets/images/playlist.jpg" /><small>All episodes</small></a></div>-->
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/iRQ3HBRbhro"><img alt="Episode 1's thumbnail" class="watch-item__image" src="./assets/images/episode1.jpg" /><small>Episode 1: (end of the) First day</small></a></div>
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/OGvE-EgW5qA"><img alt="Episode 2's thumbnail" class="watch-item__image" src="./assets/images/episode2.jpg" /><small>Episode 2: Fun descents, magical forest and first rapids</small></a></div>
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/q-FZt1Z7RNc"><img alt="Episode 3's thumbnail" class="watch-item__image" src="./assets/images/episode3.jpg" /><small>Episode 3: Meeting the Oulanka river and sleeping in a tent</small></a></div>
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/Ijtehnt_thA"><img alt="Episode 4's thumbnail" class="watch-item__image" src="./assets/images/episode4.jpg" /><small>Episode 4: Icy rapids and deep powder</small></a></div>
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/x7S73H_XFy4"><img alt="Episode 5's thumbnail" class="watch-item__image" src="./assets/images/episode5.jpg" /><small>Episode 5: Wildest area</small></a></div>
+      <div class="watch-item"><a class="watch-item__link" href="https://youtu.be/xuFpwUvegFA"><img alt="Episode 6's thumbnail" class="watch-item__image" src="./assets/images/episode6.jpg" /><small>Episode 6: Arctic Circle?</small></a></div>
+    </div>
   </article>
 
   <article id="conditions">
@@ -154,6 +158,7 @@
         <li class="gear-item">Shell Gloves<br><small>The Heat Company Polar Hood</small></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>At camp</summary>
       <small>Base layer</small>
@@ -173,6 +178,7 @@
         <li class="gear-item">Warm Gloves<br><small>Hestra Fält Guide Gloves</small></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>In bed</summary>
       <ul>
@@ -184,6 +190,7 @@
         <li class="gear-item">Down socks<br><small>GooseFeet Gear Down Socks (+ 50% down fill)</small></li>
       </ul>
     </details>
+    <hr />
     <details id="other">
       <summary>Other worn items</summary>
       <ul>
@@ -224,7 +231,7 @@
         </li>
       </ul>
     </details>
-
+    <hr />
     <details>
       <summary>Bushcraft</summary>
       <ul>
@@ -232,7 +239,7 @@
         <li class="gear-item">Fire Blower<br><small>Winomo Fire blower</small></li>
       </ul>
     </details>
-
+    <hr />
     <details>
       <summary>Food</summary>
       <ul>
@@ -250,12 +257,14 @@
         <li class="gear-item">Waterproof dry bag<br><small>Silva Waterproof dry bag 12L</small></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Electronics</summary>
       <ul>
         <li class="gear-item">All electronics have to be worn close to the body to prevent them to freeze and lose their power, see <a class="secondary" href="#other">Other worn items</a></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Hygiene</summary>
       <ul>
@@ -265,6 +274,7 @@
         <li class="gear-item">Poop kit<br><small>Lixada Titanium Shovel + CuloClean Portable Bidet</small></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Safety</summary>
       <ul>
@@ -272,6 +282,7 @@
         <li class="gear-item">First aid kit</li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Comfort</summary>
       <ul>
@@ -282,6 +293,7 @@
         <li class="gear-item">Hand and toe warmers</li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Filmmaking</summary>
       <ul>
@@ -289,6 +301,7 @@
         <li class="gear-item">Tripod<br><small>Camolo Phone Tripod Horizontal</small></li>
       </ul>
     </details>
+    <hr />
     <details>
       <summary>Plane covers</summary>
       <ul>
@@ -304,13 +317,13 @@
 
 <footer class="container">
   <div class="logo uppercase">
-    <a class="logo__link" href="https://www.youtube.com/@adrian.inthewild">
+    <a class="logo__link" href="/">
       <img alt="My profile photo" class="logo__image" src="/assets/images/logo.jpg" />
       <small class="logo__text">Adrian <strong class="logo__text-strong">in The Wild</strong></small>
     </a>
   </div>
   <div class="social">
-    <a href="https://www.youtube.com/@adrian.inthewild"><i class="fab fa-square-youtube social-icons"></i></a>
+    <a href="https://www.youtube.com/@adrian.inthewild"><i class="fab fa-youtube social-icons"></i></a>
     <a href="https://www.instagram.com/adrian.inthewild"><i class="fab fa-instagram social-icons"></i></a>
   </div>
   <br>

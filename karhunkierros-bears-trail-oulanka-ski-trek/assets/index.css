@@ -1,3 +1,13 @@
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__image {
+  object-position: 50% 65%;
+}
+
 .main-subtitle {
   font-size: large;
   letter-spacing: .2em;
@@ -31,10 +41,12 @@
 .watch-item__link {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .watch-item__image {
-  max-width: 100px;
+  max-width: 300px;
   margin-right: 10px;
   border-radius: 5px
 }
@@ -42,3 +54,32 @@
 .gear-item {
   font-size: smaller;
 }
+
+.watch__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+.watch-item {
+  flex: 1 1 calc(33% - 20px); /* 3 items per row */
+  max-width: calc(33% - 20px);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .watch-item {
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .watch-item {
+    flex: 1 1 100%; /* 1 item per row */
+    max-width: 100%;
+  }
+}
+>>>>>>> Stashed changes
