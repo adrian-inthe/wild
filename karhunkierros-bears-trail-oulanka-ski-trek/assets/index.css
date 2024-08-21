@@ -17,34 +17,6 @@ summary,
   text-transform: uppercase;
 }
 
-.logo {
-  font-size: medium;
-  font-weight: 250;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo__link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.logo__image {
-  height: 40px;
-  margin-right: 10px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-}
-
-.logo__text {
-  letter-spacing: .25em;
-}
-
-.logo__text-strong {
-  letter-spacing: .3em;
-}
-
 .main-title {
   font-size: xx-large;
   margin-top: 50px;
