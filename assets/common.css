@@ -30,7 +30,6 @@ summary,
 .hero {
   overflow: hidden;
   width: 100%;
-  border-radius: 5px;
 }
 
 .hero__image {
